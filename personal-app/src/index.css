@@ -1,21 +1,25 @@
 #nav-container {
-    border: 1px solid orange;
     margin: 2% 10% 0 10%;  /*margin shorthand*/
     display: flex;
     justify-content: space-evenly;
     padding: 15px 0;
-    background-color: rgb(22, 70, 22);
+    background-color: rgb(189, 113, 219);
 }
 
 .nav-item {
     font-size: 30px;
     padding: 5px 15px;
-    background-color: rgb(209, 128, 6);
+    background-color: rgb(106, 15, 114);
+    color: rgb(197, 139, 187);
     border-radius: 50px; /*for curvy border*/
+    /* flex: 0 1 auto; */
+    flex-grow:0;
+    flex-shrink: 1;
+    flex-basis: auto;
 }
 
 .nav-item:hover{
-    background-color: blueviolet;
+    background-color: rgb(144, 53, 230);
     color: aliceblue;
     cursor: pointer;
 }
