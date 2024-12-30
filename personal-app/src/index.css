@@ -24,3 +24,21 @@
     cursor: pointer;
 }
 
+#main-article-section{
+    border: 1px solid black;
+    padding: 5px 2%;
+}
+
+#container-one{
+    border: 3px solid red;
+    display: flex;
+    padding: 1% 5% 1% 1%;
+    gap: 50px;
+}
+
+#banners-section{
+    border: 1px solid blue;
+    background-color: aqua;
+    min-width: 20%;
+    min-height: 300px;
+}
