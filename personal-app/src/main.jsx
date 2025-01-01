@@ -1,8 +1,8 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import NavBar from "./components/NavBar";
 import MainArticle from "./components/MainArticle";
+import HouseBanners from "./components/HouseBanners";
 
 createRoot(document.getElementById("root")).render(
   <>
@@ -11,8 +11,7 @@ createRoot(document.getElementById("root")).render(
     </div>
     <div id="main-section">
       <div id="container-one">
-        {/* BannersSection */}
-        <div id="banners-section"></div>
+        <HouseBanners />
         <MainArticle />
       </div>
       <div id="container-two"></div>

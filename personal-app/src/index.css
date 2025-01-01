@@ -36,9 +36,15 @@
     gap: 50px;
 }
 
-#banners-section{
-    border: 1px solid blue;
-    background-color: aqua;
-    min-width: 20%;
-    min-height: 300px;
+.banner-img{
+    width: 130px;
+    height: 130px;
+}
+
+#house-banner-section{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
 }
