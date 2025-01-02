@@ -18,7 +18,7 @@ function MainCharImages() {
       {mainCharacters.map((character) => {
         const alt = "image of " + character.name;
         return (
-          <div className="main-char-wrapper">
+          <div id="main-char-wrapper">
             <h2>{character.name}</h2>
             <img className="main-char-img" src={character.image} alt={alt} />
           </div>
