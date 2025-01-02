@@ -1,34 +1,16 @@
-import gryffindor from "../images/gryffindor.png";
-import slytherin from "../images/slytherin.jpg";
-import hufflepuff from "../images/hufflepuff.jpg";
-import ravenclaw from "../images/ravenclaw.png";
+import gryffindor from "../images/houses/gryffindor.png";
+import slytherin from "../images/houses/slytherin.jpg";
+import hufflepuff from "../images/houses/hufflepuff.jpg";
+import ravenclaw from "../images/houses/ravenclaw.png";
 
 function HouseBanners() {
+  const bannerImages = [gryffindor, slytherin, hufflepuff, ravenclaw];
+
   return (
     <div id="house-banner-section">
-      <img
-        className="banner-img"
-        src={gryffindor}
-        alt="Gryffindor house banner"
-      />
-
-      <img
-        className="banner-img"
-        src={slytherin}
-        alt="Slytherin house banner"
-      />
-
-      <img
-        className="banner-img"
-        src={hufflepuff}
-        alt="Hufflepuff house banner"
-      />
-
-      <img
-        className="banner-img"
-        src={ravenclaw}
-        alt="Ravenclaw house banner"
-      />
+      {bannerImages.map((image) => {
+        return <img className="banner-img" src={image} alt="house banner" />;
+      })}
     </div>
   );
 }

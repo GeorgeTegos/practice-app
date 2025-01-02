@@ -48,3 +48,18 @@
     padding: 30px;
     gap: 10px;
 }
+
+#main-character-section{
+    border: 1px solid purple;
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.main-char-img{
+    width: 150px;
+    height: 200px;
+    border-radius: 30px;
+
+}
